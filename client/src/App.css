@@ -1,0 +1,41 @@
+.App-header {
+  background-color: #5bbc8e;
+  border: 25px solid white;
+  height: 100%;
+  padding: 20px;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.background {
+  height: 100vh;
+  background-color: #d0ecd9;
+  font-size: 25px;
+}
+
+.container {
+  background-color: #95d0b1;
+  min-height: 100px;
+  display: block;
+  overflow: auto;
+  margin: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  width: 50%;
+  border: 3px solid #5bbc8e;
+  text-align: center;
+  color: black;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
