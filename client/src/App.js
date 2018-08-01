@@ -11,7 +11,6 @@ class App extends Component {
     };
 
     this.handleChange = this.handleChange.bind(this);
-    // this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   componentDidMount() {
@@ -45,10 +44,8 @@ class App extends Component {
       <h1 className="App-header">BFA Item Level Converter</h1>
         <div className="background columns">
           <div className="container column">
-          <form >
             New iLvL<br />
             <input type="number" value={this.state.value} onChange={this.handleChange} name="newLevel" />
-          </form>
           </div>
           <div className="container column">
             Old level<br />
